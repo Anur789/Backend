@@ -11,7 +11,7 @@ const fileUpload = require('express-fileupload');
 
 mongoose.set('strictQuery', false);
 
-mongoose.connect('mongodb+srv://anuragsinger09:moles900@cluster0.heianx8.mongodb.net/Shops').then((result) => {
+mongoose.connect('mongodb+srv://anuragsinger09:anurag900@cluster0.heianx8.mongodb.net/').then((result) => {
   app.listen(port);
 }).catch((err) => {
   
