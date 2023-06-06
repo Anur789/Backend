@@ -14,7 +14,7 @@ mongoose.set('strictQuery', false);
 mongoose.connect('mongodb+srv://anuragsinger09:moles900@cluster0.heianx8.mongodb.net/Shops').then((result) => {
   app.listen(port);
 }).catch((err) => {
-  console.log(err);
+  
 })
 app.use(cors());
 app.use(morgan('dev'));
